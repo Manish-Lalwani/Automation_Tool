@@ -5,7 +5,7 @@ I created this tool to automate the manual process of closing the Tickets genera
 <h2>Basic overview of the scenario for which I developed the tool.</h2>
 
 
-<h3>Little details of Our Prod Envoirment :<h3>
+<h3>Little details of Our Prod Envoirment :</h3>
 
 There was one Monitoring tool <a href="https://www.paessler.com/prtg">PRTG</a>  which monitors server health.
 This tool was configured on all servers using sensors for each component like eg : CPU usage, Ram usage ,Storage usage, 
