@@ -34,7 +34,7 @@ Took one Incident and checked the Alert details (servr name,service).
 
 Then fetched the relevant details from PRTG.
 
-<b>2 ways for fetvhing details fro PRTG</b><br>
+<b>2 ways for fetching details fro PRTG</b><br>
 
 1. Using Selenium.
 2. API CALLS.
