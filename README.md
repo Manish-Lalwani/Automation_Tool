@@ -2,17 +2,17 @@
 I created this tool to automate the manual process of closing the Tickets generated in ServiceNow
 
 
-<b>#Basic overview of the scenario for which I developed the tool.</b>
+<h2>Basic overview of the scenario for which I developed the tool.</h2>
 
 
-Little details of Our Prod Envoirment :
+<h3>Little details of Our Prod Envoirment :<h3>
 
-There was one Monitoring tool PRTG which monitors server health.
+There was one Monitoring tool <a href="https://www.paessler.com/prtg">PRTG</a>  which monitors server health.
 This tool was configured on all servers using sensors for each component like eg : CPU usage, Ram usage ,Storage usage, 
 also for services like ping, ssh etc.
 
 When something went wrong PRTG generated an alert on it's dashboard.
-This alert got converted into an ServiceNow Ticket/Incident.
+This alert got converted into an <a href="https://www.servicenow.com/">ServiceNow</a>  Ticket/Incident.
 
 
 
@@ -23,25 +23,25 @@ So to tackle this hectic of manually closing ticket.
 I created this Automation Tool.
 
 
-Languages and Libraries used : 
+<b>Languages and Libraries used : </b>
 Python , Selenium , REST API's
 
 
-Input for Tool :
+<b>Input for Tool :</b>
 An Excel with details of ServiceNow Incident in an formatted way.
 
 
-Working and output of tool :
+<b>Working and output of tool :</b>
 
 First it loaded the Excel with the Incident details.
 Took one Incident and checked the Alert details (servr name,service).
 
 Then fetched the relevant details from PRTG.
 
-2 ways for fetvhing details fro PRTG.
+<b>2 ways for fetvhing details fro PRTG</b>
 
-Using Selenium.
-API CALLS.
+1. Using Selenium.
+2. API CALLS.
 
 Both ways have been implemented, First had implemented using seenium but it took much time, so later implemented using API calls which was much faster.
 
