@@ -23,22 +23,22 @@ So to tackle this hectic of manually closing ticket.
 I created this Automation Tool.
 
 
-<b>Languages and Libraries used : </b>
+<b>Languages and Libraries used : </b><br>
 Python , Selenium , REST API's
 
 
-<b>Input for Tool :</b>
+<b>Input for Tool :</b><br>
 An Excel with details of ServiceNow Incident in an formatted way.
 
 
-<b>Working and output of tool :</b>
+<b>Working and output of tool :</b><br>
 
 First it loaded the Excel with the Incident details.
 Took one Incident and checked the Alert details (servr name,service).
 
 Then fetched the relevant details from PRTG.
 
-<b>2 ways for fetvhing details fro PRTG</b>
+<b>2 ways for fetvhing details fro PRTG</b><br>
 
 1. Using Selenium.
 2. API CALLS.
