@@ -1,7 +1,3 @@
-# Automation_Tool
-I created this tool to automate the manual process of closing the Tickets generated in ServiceNow
-
-
 <h2>Basic overview of the scenario for which I developed the tool.</h2>
 
 
